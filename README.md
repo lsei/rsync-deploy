@@ -5,7 +5,7 @@ Deploy to a remote server using rsync.
 example usage to sync everything in the workspace folder:
 ```
 - name: deploy to server
-        uses: AEnterprise/rsync-deploy@v1.0
+        uses: lsei/rsync-deploy@v1.0
         env:
           DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}
           ARGS: "-e -c -r --delete"
